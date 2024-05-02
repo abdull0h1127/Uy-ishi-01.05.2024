@@ -3,7 +3,7 @@ type num3 = {
     dragons: number
 }
 
-function hero(data: num3){
+function hero(data: num3): boolean{
     if(data.bullets / 2 >= data.dragons){
         return true
     } else {
