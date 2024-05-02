@@ -1,4 +1,4 @@
-function hasUniqueChars(string: string){
+function hasUniqueChars(string: string): boolean{
     for(let i: number = 0; i < string.length; i++ ){
         for(let j: number = i + 1; j < string.length; j++){
             if(string[i] === string[j]){
@@ -8,3 +8,6 @@ function hasUniqueChars(string: string){
     }
     return true
 }
+
+console.log(hasUniqueChars("  nAa"))
+console.log(hasUniqueChars("abcdef"))
