@@ -1,8 +1,8 @@
-type num = number
+type num2 = number
 
-function positiveSum(arr: number[]): num{
-    let count: num = 0
-    for(let i: num = 0; i < arr.length; i++){
+function positiveSum(arr: number[]): num2{
+    let count: num2 = 0
+    for(let i: num2 = 0; i < arr.length; i++){
         if(arr[i] > 0){
             count += arr[i]
         } else 0
